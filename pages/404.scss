@@ -1,0 +1,36 @@
+.not-found-404-container {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain; // background-color: #3f3d56;
+  background-color: $footerBgColor;
+  height: 100vh;
+  .not-found-404-div {
+    text-align: center;
+    .not-found-404-text {
+      color: $brandColor;
+      font-size: 200px;
+      letter-spacing: 30px;
+      text-shadow: 3px 3px 3px rgba(150, 150, 150, 1);
+      // text-decoration-style: ;
+    }
+    .not-found-404-text2 {
+      color: $brandColor;
+      text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+      letter-spacing: 2px;
+    }
+    .not-found-404-btn {
+      background-color: $brandColor;
+      border: none;
+      outline: none;
+      width: 300px;
+      padding: 1rem;
+      font-size: 30px;
+      color: $white;
+      font-weight: bold;
+      border-radius: 60px;
+      &:hover {
+        box-shadow: 0px 10px 15px 2px rgba(160, 158, 175, 0.39);
+      }
+    }
+  }
+}

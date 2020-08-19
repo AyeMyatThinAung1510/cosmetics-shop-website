@@ -1,0 +1,21 @@
+// .product-detail-content{
+
+// }
+.product-detail-bg-container {
+  height: 60vh;
+  // background: url('/image/collection-bg.jpg') no-repeat center;
+  background-size: cover;
+}
+.product-detail-button-wrap {
+  // border-top: 1px solid $brandColor;
+  // border-bottom: 1px solid $brandColor;
+  background-color: $footerBgColor;
+  padding: 10px;
+  .square-btn {
+    border: 1px solid $brandColor;
+    padding: 10px 20px;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+  }
+}

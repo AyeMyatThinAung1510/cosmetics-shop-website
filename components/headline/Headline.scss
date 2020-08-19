@@ -1,0 +1,65 @@
+.each-slide {
+  .each-slide-img-wrap {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92vh;
+  }
+
+  .each-slide-content {
+    h3 {
+      color: $brandColor;
+      letter-spacing: 2px;
+    }
+    h1 {
+      font-size: 48px;
+      letter-spacing: 4px;
+    }
+  }
+  .content-1 {
+    padding: 20px 20px 20px 50px;
+  }
+  .content-2 {
+    padding: 20px;
+    align-self: center;
+  }
+}
+.content-3 {
+  padding: 20px 50px 20px 20px;
+}
+
+.headline-main {
+  background-size: cover;
+  padding: 3rem 0px;
+  background: #fff;
+  height: calc(100vh - 27vh);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .header-typing {
+//   overflow: hidden;
+//   white-space: nowrap;
+//   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+// }
+
+/* The typing effect */
+// @keyframes typing {
+//   from {
+//     width: 0;
+//   }
+//   to {
+//     width: 100%;
+//   }
+// }
+
+/* mobile view */
+@media (min-width: 320px) and (max-width: 1024px) and (min-height: 568px) and (max-height: 1792px) {
+  .headline-main {
+    height: auto !important;
+  }
+}

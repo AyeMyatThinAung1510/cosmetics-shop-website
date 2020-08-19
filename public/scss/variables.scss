@@ -1,0 +1,23 @@
+$spacer: 1rem;
+$brandColor: #ee2d7a;
+$brandColor2nd: #ff8a44;
+$brandColor3nd: #a6c6f3;
+
+$white: #fff;
+$whiteSmoke: #f3f3f3;
+$mutedColor: #30373e;
+$boxShadow: 0 0 2rem 0 #8898aa26;
+$navbarBgColor: #fdefe1;
+$footerBgColor: #fdefe1;
+$footerTextColor: #232323;
+$webkit-linear-background: -webkit-linear-gradient(
+  to right,
+  #0b3b7c,
+  #115bbb
+); /* Chrome 10-25, Safari 5.1-6 */
+$linear-background: linear-gradient(
+  to right,
+  #0b3b7c,
+  #115bbb
+); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+$clip-path-value: ellipse(70% 80px at 50% 0%);

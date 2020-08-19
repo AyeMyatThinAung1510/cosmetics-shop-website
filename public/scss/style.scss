@@ -1,0 +1,25 @@
+@import './variables.scss';
+@import './spacer.scss';
+@import './flex.scss';
+@import './text-style.scss';
+@import './nprogress.scss';
+
+.global-content {
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 18px;
+}
+.global-intro-header {
+  font-size: 60px;
+}
+
+.global-padding {
+  padding: 5rem 0;
+}
+.font-size-30 {
+  font-size: 30px !important;
+}
+.global-headline {
+  font-size: 36px;
+  letter-spacing: 2px;
+}

@@ -1,7 +1,8 @@
-import '../styles/globals.css'
+import App from 'next/app';
+import 'react-simple-flex-grid/lib/main.css';
+import 'react-slideshow-image/dist/styles.css';
+import '../public/scss/main.scss';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => <Component {...pageProps} />;
 
-export default MyApp
+export default MyApp;

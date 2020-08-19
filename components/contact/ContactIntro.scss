@@ -1,0 +1,33 @@
+.contact-intro-container {
+  border: 2px solid $footerBgColor;
+  padding: 30px;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: -120px;
+  .contact-intro-icon {
+    font-size: 30px;
+    background-color: $footerBgColor;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-intro-div {
+    display: flex;
+    flex-direction: row;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .contact-intro-link {
+    text-decoration: none;
+    color: $brandColor;
+    cursor: pointer;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,14 @@
+.blog-bg-container {
+  background: url('/image/blog-bg.jpg') center no-repeat;
+  background-size: cover;
+  height: 75vh;
+  padding: 3rem 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-bg-content {
+  padding: 15px 20px;
+  background-color: $footerBgColor;
+  opacity: 0.8;
+}
