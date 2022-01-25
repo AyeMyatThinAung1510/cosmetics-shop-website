@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 
-export default ({ fluid, children, className, ...rest }) => {
+const Container = ({ fluid, children, className, ...rest }) => {
   return (
     <div
       className={classNames(fluid ? 'container-fluid' : 'container', className)}
@@ -10,3 +10,4 @@ export default ({ fluid, children, className, ...rest }) => {
     </div>
   );
 };
+export default Container;

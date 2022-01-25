@@ -17,7 +17,7 @@ import {
 import Container from '../container/Container';
 import ContactIntro from '../contact/ContactIntro';
 
-export default () => {
+const Footer = () => {
   return (
     <>
       <div className="footer-section pt-5 py-2">
@@ -174,3 +174,4 @@ export default () => {
     </>
   );
 };
+export default Footer;
