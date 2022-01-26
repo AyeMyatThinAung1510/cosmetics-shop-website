@@ -249,16 +249,16 @@ class MobileMenu extends React.Component {
                 </li>
 
                 <li>
-                  <Link href="/blog">
+                  <Link href="/blogs">
                     <a
-                      href="/blog"
+                      href="/blogs"
                       className={
-                        active === 'blog'
+                        active === 'blogs'
                           ? 'mobile-menu-link-active'
                           : 'mobile-menu-link'
                       }
                     >
-                      Blog
+                      Blogs
                     </a>
                   </Link>
                 </li>

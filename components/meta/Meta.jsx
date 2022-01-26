@@ -1,5 +1,5 @@
-import Head from "next/head";
-import { useRouter } from "next/router";
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 import {
   TITLE,
   DESCRIPTION,
@@ -9,10 +9,10 @@ import {
   WEB_URL,
   FACEBOOK,
   TWITTER,
-  OG_IMAGE
-} from "../../public/variables/constants";
+  OG_IMAGE,
+} from '../../public/variables/constants';
 
-const Meta = props => {
+const Meta = (props) => {
   const { pathname } = useRouter();
   const { title, description } = props;
   const url = `${WEB_URL}${pathname}`;

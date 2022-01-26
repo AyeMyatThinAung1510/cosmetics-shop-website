@@ -1,6 +1,7 @@
 import { Fade } from 'react-slideshow-image';
 import Button from '../button/Button';
 // import { Row, Col } from 'react-simple-flex-grid';
+
 const slideImages = [
   '/image/landing-img-1.jpg',
   '/image/landing-img-2.jpg',
