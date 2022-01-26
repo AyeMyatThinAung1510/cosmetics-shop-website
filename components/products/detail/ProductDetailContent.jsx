@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-simple-flex-grid';
-import Container from '../container/Container';
+import Container from '../../container/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons';
 

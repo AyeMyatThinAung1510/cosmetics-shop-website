@@ -130,12 +130,12 @@ class DeskTopMenu extends React.Component {
                 </a>
               </Link>
 
-              <Link href="/blog">
+              <Link href="/blogs">
                 <a
-                  href="/blog"
-                  style={{ color: active === 'blog' && '#ee2d7a' }}
+                  href="/blogs"
+                  style={{ color: active === 'blogs' && '#ee2d7a' }}
                 >
-                  Blog
+                  Blogs
                 </a>
               </Link>
 

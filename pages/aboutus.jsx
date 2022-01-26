@@ -2,7 +2,7 @@ import Layout from '../components/layout/Layout';
 import Meta from '../components/meta/Meta';
 import AboutusBackground from '../components/aboutus/AboutusBackground';
 
-export default () => {
+const AboutUs = () => {
   return (
     <>
       <Meta
@@ -15,3 +15,4 @@ export default () => {
     </>
   );
 };
+export default AboutUs;

@@ -1,7 +1,7 @@
-import Layout from '../components/layout/Layout';
-import BlogContent from '../components/blog/BlogContent';
-import BlogBackground from '../components/blog/BlogBackground';
-import Meta from '../components/meta/Meta';
+import Layout from '../../components/layout/Layout';
+import BlogContent from '../../components/blog/BlogContent';
+import BlogBackground from '../../components/blog/BlogBackground';
+import Meta from '../../components/meta/Meta';
 
 export default () => {
   return (

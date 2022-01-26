@@ -41,10 +41,7 @@ const BlogContent = () => {
                 <img src={b.src} alt="Not Available" width="100%" />
                 <div className="mt-2 py-4 px-3">
                   <h4 className="my-1 blog-title">
-                    <a
-                      href={`/read-more-page?id=${b.id}`}
-                      className="blog-title-a"
-                    >
+                    <a href={`/blogs/${b?.id}`} className="blog-title-a">
                       {b.title}
                     </a>
                   </h4>
@@ -67,7 +64,7 @@ const BlogContent = () => {
                     </div>
                   </div>
                   <p className="blog-articles mt-1 mb-3">{b.content}</p>
-                  <ReadmoreBtn link={`/read-more-page?id=${b.id}`} />
+                  <ReadmoreBtn link={`/blogs/${b.id}`} />
                 </div>
               </Card>
             </Col>
