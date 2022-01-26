@@ -15,3 +15,4 @@ const Layout = ({ children, active }) => {
     </div>
   );
 };
+export default Layout;
